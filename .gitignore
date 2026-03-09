@@ -1,0 +1,36 @@
+# Dependências
+node_modules/
+
+# Pastas de build e cache do Expo
+.expo/
+dist/
+web-build/
+
+# Variáveis de ambiente (Segurança)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs de erro
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# Chaves de assinatura e certificados (Segurança)
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.keystore
+
+# Arquivos de sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos temporários de editores
+.idea/
+.vscode/
+*.swp
